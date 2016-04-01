@@ -5,7 +5,7 @@
   "author": "https://github.com/nicklaw5",
   "scripts": {
     "start-web": "webpack-dev-server --inline --hot",
-    "start-desktop": "webpack && ./node_modules/nw/bin/nw .",
+    "start-desktop": "node_modules/.bin/nw .",
     "build": "webpack --progress --hide-modules",
     "build-watch": "webpack --watch --progress --hide-modules"
   },

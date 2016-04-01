@@ -17,6 +17,7 @@ $ npm run start-web
 
 **To launch as a desktop app:**
 ``` bash
+$ npm run build
 $ npm run start-desktop
 ```
 
