@@ -18,8 +18,8 @@ export default {
 }
 </script>
 
-<style>
-body {
-	font-family: Helvetica, sans-serif;
+<style scoped>
+h1 {
+	color: #f00;
 }
 </style>

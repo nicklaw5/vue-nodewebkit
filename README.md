@@ -1,6 +1,6 @@
 # vue-nodewebkit
 
-> A simple Webpack for Vue and Node-Webkit starter projects.
+> A simple Webpack starter kit for developing Vue and Node-Webkit projects.
 
 ### Usage
 
@@ -23,10 +23,14 @@ $ npm run start-desktop
 
 ### What's Included
 
-- `npm run start-web`: Launch Web App ([localhost:8080](http://localhost:8080/)) - Webpack + Vueify with proper config for source maps & hot-reload.
-
-- `npm run start-desktop`: Launch Desktop App -  Webpack + Vueify + Node Webkit.
-
+- `npm run start-web`: Launch Web App ([localhost:8080](http://localhost:8080/)) - Webpack + Vue-Loader with hot-reload.
+- `npm run start-desktop`: Launch Desktop App - Vue-Loader + Node Webkit.
 - `npm run build`: Run a single build - dist/build.js
-
 - `npm run build-watch`: Watch for changes to files and run a build on file save - dist/build.js
+
+## Docunmentation
+
+- **Vue:**  [http://vuejs.org/guide/](http://vuejs.org/guide/)
+- **Vue-Loader:**  [https://github.com/vuejs/vue-loader](https://github.com/vuejs/vue-loader)
+- **Webpack:**  [http://webpack.github.io/docs/](http://webpack.github.io/docs/)
+- **Node-Webkit:**  [http://docs.nwjs.io/en/latest/](http://docs.nwjs.io/en/latest/)
