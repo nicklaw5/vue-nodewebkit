@@ -30,7 +30,7 @@ $ npm run start-desktop
 - `npm run build`: Run a single build - dist/build.js
 - `npm run build-watch`: Watch for changes to files and run a build on file save - dist/build.js
 
-## Docunmentation
+## Documentation
 
 - **Vue:**  [http://vuejs.org/guide/](http://vuejs.org/guide/)
 - **Vue-Loader:**  [https://github.com/vuejs/vue-loader](https://github.com/vuejs/vue-loader)
