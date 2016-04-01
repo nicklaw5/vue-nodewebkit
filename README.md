@@ -4,27 +4,28 @@
 
 ### Usage
 
-**For use in a web browser:**
-
 ``` bash
+$ git clone https://github.com/nicklaw5/vue-nodewebkit.git
+$ cd vue-nodewebkit
 $ npm install
-$ npm run start-w
 ```
 
-**For use as a desktop app:**
-
+**To launch as a a web app:**
 ``` bash
-$ npm install -g nodewebkit
-$ npm install
-$ npm run start-d
+$ npm run start-web
+```
+
+**To launch as a desktop app:**
+``` bash
+$ npm run start-desktop
 ```
 
 ### What's Included
 
-- `npm run start-w`: Launch Web App ([localhost:8080](http://localhost:8080/))- Webpack + `vue-loader` with proper config for source maps & hot-reload.
+- `npm run start-web`: Launch Web App ([localhost:8080](http://localhost:8080/)) - Webpack + Vueify with proper config for source maps & hot-reload.
 
-- `npm run start-d`: Launch Desktop App -  Webpack + `vue-loader` + Node Webkit.
+- `npm run start-desktop`: Launch Desktop App -  Webpack + Vueify + Node Webkit.
 
 - `npm run build`: Run a single build - dist/build.js
 
-- `npm run build-w`: Watch for changes to files and run a build on file save - dist/build.js
+- `npm run build-watch`: Watch for changes to files and run a build on file save - dist/build.js
