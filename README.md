@@ -10,6 +10,8 @@ $ cd vue-nodewebkit
 $ npm install
 ```
 
+**Note:** Windows users may need to run `$ npm install --no-bin-links` if an error is raised from `npm install`.
+
 **To launch as a a web app:**
 ``` bash
 $ npm run start-web
