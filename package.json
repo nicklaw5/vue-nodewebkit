@@ -6,7 +6,8 @@
   "scripts": {
     "start-w": "webpack-dev-server --inline --hot",
     "start-d": "webpack && nodewebkit .",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build": "webpack --progress --hide-modules",
+    "build-w": "webpack --watch --progress --hide-modules"
   },
   "window": {
     "title": "Vue Node Webkit",
@@ -14,7 +15,7 @@
     "frame": true,
     "width": 800,
     "height": 600,
-    "position": "center",
+    "position": "center"
   },
   "webkit": {
     "plugin": true
