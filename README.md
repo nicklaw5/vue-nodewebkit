@@ -5,6 +5,7 @@
 ### Usage
 
 ``` bash
+$ npm install -g nw
 $ git clone https://github.com/nicklaw5/vue-nodewebkit.git
 $ cd vue-nodewebkit
 $ npm install
@@ -14,19 +15,18 @@ $ npm install
 
 **To launch as a a web app:**
 ``` bash
-$ npm run start-web
+$ npm run w-app
 ```
 
 **To launch as a desktop app:**
 ``` bash
-$ npm run build
-$ npm run start-desktop
+$ npm run d-app
 ```
 
 ### What's Included
 
-- `npm run start-web`: Launch Web App ([localhost:8080](http://localhost:8080/)) - Webpack + Vue-Loader with hot-reload.
-- `npm run start-desktop`: Launch Desktop App - Vue-Loader + Node Webkit.
+- `npm run w-app`: Launch Web App ([localhost:8080](http://localhost:8080/)) - Webpack + Vue-Loader with hot-reload.
+- `npm run d-app`: Launch Desktop App - Vue-Loader + Node Webkit.
 - `npm run build`: Run a single build - dist/build.js
 - `npm run build-watch`: Watch for changes to files and run a build on file save - dist/build.js
 
